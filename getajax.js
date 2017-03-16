@@ -1,0 +1,1 @@
+module.exports=function(n,e,o){var t=new XMLHttpRequest;t.onload=function(){e&&e(t.responseText)},t.onerror=function(){o&&o(t)},t.open("GET",n,!0),t.send()};

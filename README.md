@@ -10,3 +10,20 @@ It is just supporting simplest possible GET call to the server.
 If you are building small website and used library size matters - then getajax is created for you!
 
 Minified file size ~157 bytes!
+
+## Installation
+
+Using npm
+
+`npm install --save getajax`
+
+## Usage
+
+ES6:
+
+`import getajax from "getajax";`
+
+CommonJS
+
+`require("getajax")`
+

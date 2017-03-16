@@ -2,7 +2,7 @@
   "name": "getajax",
   "version": "0.0.1",
   "description": "Smallest possible lib to execute ajax GET call",
-  "main": "index.js",
+  "main": "dist/getajax.js",
   "scripts": {
     "test": "ava -c 8",
     "build": "uglifyjs src/getajax.js --compress --mangle --output dist/getajax.js"
