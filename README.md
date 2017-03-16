@@ -27,3 +27,19 @@ CommonJS
 
 `require("getajax")`
 
+## Using function in your code
+
+To fetch something from the server simply execute:
+
+`getajax(path, successCallback, exceptionCallback)`
+
+Example:
+
+```
+getajax("myfile.json", result => {
+  console.log(result);
+},
+xhr => {
+  throw xhr;
+})
+```
