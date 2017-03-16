@@ -1,0 +1,32 @@
+{
+  "name": "getajax",
+  "version": "0.0.1",
+  "description": "Smallest possible lib to execute ajax GET call",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -c 8",
+    "build": "uglifyjs src/getajax.js --compress --mangle --output dist/getajax.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlayeh/getajax.git"
+  },
+  "author": "Ryszard Jakielski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rlayeh/getajax/issues"
+  },
+  "homepage": "https://github.com/rlayeh/getajax#readme",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "sinon": "^1.17.7",
+    "uglify-js": "^2.8.9"
+  },
+  "ava": {
+    "files": [
+      "src/**/*.spec.js"
+    ],
+    "timeout": "240s",
+    "verbose": true
+  }
+}
